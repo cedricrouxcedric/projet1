@@ -111,6 +111,8 @@ main {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  padding-top: 14rem;
+  padding-bottom:7rem;
 }
 
 .banner h1 {
@@ -120,11 +122,12 @@ main {
 }
 
 .logo {
-  width: 20vw;
+  width: 200px;
   display: block;
   align-self: baseline;
   margin: 0rem auto;
   border-radius: 20%;
+  margin-top: -9rem;
 }
 
 .introduction {
@@ -241,12 +244,14 @@ main {
 .booking_form {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .form_items {
   display: flex;
   flex-direction: column;
+  width:40%;
 }
 
 nav {
@@ -266,3 +271,15 @@ a{
 	border:1px solid black;
 	padding: 2rem;
 }*/
+
+button{
+  width: 20%;
+}
+
+.contact form{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
