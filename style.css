@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -18,13 +17,12 @@ nav ul li {
   padding: 0.5rem;
 }
 
-
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     min-width: 500px;
   }
 
-.logos{
+  .logos {
     height: 50px;
     margin: 0.5rem;
     margin-bottom: 20px;
@@ -32,12 +30,11 @@ nav ul li {
 
   footer {
     border: 1px black solid;
-    background-color:#191516;
-    color:#92817a ;
-    padding: 0 ;
-    font-size: 2.5VW;
-    
-}
+    background-color: #191516;
+    color: #92817a;
+    padding: 0;
+    font-size: 2.5vw;
+  }
 
   .container {
     display: flex;
@@ -49,100 +46,97 @@ nav ul li {
 
   .between {
     justify-content: space-between;
- }
+  }
 }
-@media screen and (min-width:1000px) {
-    footer p {
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-    .logos{
-        height: 50px;
-        margin: 0.5rem ;
-        margin-bottom: 20px;
-    }
-}
-
-.logos{
-    height: 7vw;
-    margin: 0.5rem ;
-    margin-bottom: 1vh;
+@media screen and (min-width: 1000px) {
+  footer p {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .logos {
+    height: 50px;
+    margin: 0.5rem;
+    margin-bottom: 20px;
+  }
 }
 
-footer{     
-    border: 1px black solid;
-    background-color:#191516;
-    color:grey;
-    padding: 5px 10px ;
-    font-size: 2VW;
-    
+.logos {
+  height: 7vw;
+  margin: 0.5rem;
+  margin-bottom: 1vh;
 }
 
-.container{
-    display: flex;   
+footer {
+  border: 1px black solid;
+  background-color: #191516;
+  color: grey;
+  padding: 5px 10px;
+  font-size: 2vw;
 }
 
-.evenly{
-    justify-content: space-evenly;
-        
+.container {
+  display: flex;
 }
 
-.between{
-    justify-content: space-between;
-    
- }
- .center{
-     text-align: center;
- }
- .right{
-     text-align: end;
- }
+.evenly {
+  justify-content: space-evenly;
 }
+
+.between {
+  justify-content: space-between;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: end;
+}
+
 /* Css Marine */
 
-body{
-	background-color: white;
+body {
+  background-color: white;
 }
 
-main{
-	background-color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+main {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
 }
 
-.banner{
-	background-image: url("pictures/banner_picture_big.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;	
-	display: flex;
-	flex-direction: column;
+.banner {
+  background-image: url("pictures/banner_picture_big.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
-.banner h1{
-	text-align: left;
-	font-size: 2rem;
-	font-family: 'Cinzel', serif;
+.banner h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
 }
 
-.logo{
-	width: 20vw;
-	display: block;
-	align-self: baseline;
-	margin: 0rem auto;
-	border-radius: 20%;
+.logo {
+  width: 20vw;
+  display: block;
+  align-self: baseline;
+  margin: 0rem auto;
+  border-radius: 20%;
 }
 
-.introduction{
-	margin: 0rem 0rem 0rem 0rem;
-	text-align: center;
-	padding-bottom: 1rem;
+.introduction {
+  margin: 0rem 0rem 0rem 0rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-.introduction h1{
-	font-size: 1,5rem;
-	text-align: center;
-	font-family: 'Cinzel', serif;
+.introduction h1 {
+  font-size: 1, 5rem;
+  text-align: center;
+  font-family: "Cinzel", serif;
 }
 /*
 .transition{
@@ -162,23 +156,22 @@ main{
 	height: 3rem;
 	display: flex;
 } */
-.transition{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Gayathri', sans-serif;
-	text-align: center;
-	/*background-image: url("pictures/banner_picture_big.jpg");
+.transition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gayathri", sans-serif;
+  text-align: center;
+  /*background-image: url("pictures/banner_picture_big.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;*/
 }
 
-.transitionpicture{
-	width: 20%;
-	align-self: flex-start;
-	
+.transitionpicture {
+  width: 20%;
+  align-self: flex-start;
 }
 
 /*
@@ -190,80 +183,77 @@ main{
 	margin: 3rem auto;
 } */
 
-
-
-
-.transition h1{
-	font-size: 1rem;
+.transition h1 {
+  font-size: 1rem;
 }
 
-.part{
-	padding: 1rem;
+.part {
+  padding: 1rem;
 }
 
-.menu{
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #f6f740;
+.menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f740;
 }
 
-.picture{
-	width: 40%;
+.picture {
+  width: 40%;
 }
 
-.menu_container{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 100%;
+.menu_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.menu_card{
-	width: 50%;
+.menu_card {
+  width: 50%;
 }
 
-.shows{
-	display: flex;
-	flex-direction: column;
-	background-color: #ab2346;
+.shows {
+  display: flex;
+  flex-direction: column;
+  background-color: #ab2346;
 }
 
-.containt_artist{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border:1px solid black;
+.containt_artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
 }
 
-.artist_card{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.artist_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.booking{
-	background-color: #92817a;
+.booking {
+  background-color: #92817a;
 }
 
-.booking_form{
-	display: flex;
-	flex-direction: column;
-	align-items: left;
+.booking_form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
-.form_items{
-	display: flex;
-	flex-direction: column;
+.form_items {
+  display: flex;
+  flex-direction: column;
 }
 
-nav{
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	background-color: black;
+nav {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: black;
 }
 /*
 a{
@@ -276,4 +266,3 @@ a{
 	border:1px solid black;
 	padding: 2rem;
 }*/
-
