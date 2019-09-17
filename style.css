@@ -1,3 +1,18 @@
-h1{
-    
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  background-color: black;
+  padding: 1rem;
+  opacity: 0.6;
+  border-radius: 10%;
+}
+
+nav ul li {
+  display: block;
+  color: yellow;
+  padding: 0.5rem;
 }
