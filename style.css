@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 760px) {
 body{
     min-width: 500px;
 }
