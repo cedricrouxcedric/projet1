@@ -1,3 +1,177 @@
-h1{
-    
+
+body{
+	background-color: white;
 }
+
+main{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.banner{
+	background-image: url("pictures/banner_picture_big.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	display: flex;
+	flex-direction: column;
+}
+
+.banner h1{
+	text-align: left;
+	font-size: 2rem;
+	font-family: 'Cinzel', serif;
+}
+
+.logo{
+	width: 20vw;
+	display: block;
+	align-self: baseline;
+	margin: 0rem auto;
+	border-radius: 20%;
+}
+
+.introduction{
+	margin: 0rem 0rem 0rem 0rem;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.introduction h1{
+	font-size: 1,5rem;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+/*
+.transition{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+/*
+
+.transition {
+	background-color: white;
+	padding: 2rem;
+	text-align: center;
+	color: white;
+	font-size: 5rem;
+	width: 100%;
+	height: 3rem;
+	display: flex;
+} */
+.transition{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Gayathri', sans-serif;
+	text-align: center;
+	/*background-image: url("pictures/banner_picture_big.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;*/
+}
+
+.transitionpicture{
+	width: 20%;
+	align-self: flex-start;
+	
+}
+
+/*
+.transition div{
+	background-color: #ab2346;
+	width: 80%;
+	height: 6rem;
+	text-align: center;
+	margin: 3rem auto;
+} */
+
+
+
+
+.transition h1{
+	font-size: 1rem;
+}
+
+.part{
+	padding: 1rem;
+}
+
+.menu{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f6f740;
+}
+
+.picture{
+	width: 40%;
+}
+
+.menu_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.menu_card{
+	width: 50%;
+}
+
+.shows{
+	display: flex;
+	flex-direction: column;
+	background-color: #ab2346;
+}
+
+.containt_artist{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border:1px solid black;
+}
+
+.artist_card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.booking{
+	background-color: #92817a;
+}
+
+.booking_form{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.form_items{
+	display: flex;
+	flex-direction: column;
+}
+
+nav{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	background-color: black;
+}
+/*
+a{
+	display: block;
+	background-color: #ab2346;
+	width: 25%;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border:1px solid black;
+	padding: 2rem;
+}*/
