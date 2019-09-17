@@ -16,3 +16,35 @@ nav ul li {
   color: yellow;
   padding: 0.5rem;
 }
+
+@media screen and (max-width: 760px) {
+  body {
+    min-width: 500px;
+  }
+  .logo {
+    height: 50px;
+    margin: 0.5rem;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    border: 1px black solid;
+    background-color: #191516;
+    color: #92817a;
+    padding: 0;
+    font-size: 0.7em;
+    height: 10em;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .evenly {
+    justify-content: space-evenly;
+  }
+
+  .between {
+    justify-content: space-between;
+  }
+}
