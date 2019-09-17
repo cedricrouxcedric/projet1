@@ -17,11 +17,13 @@ nav ul li {
   padding: 0.5rem;
 }
 
-@media screen and (max-width: 760px) {
+
+    @media screen and (max-width: 768px) {
   body {
     min-width: 500px;
   }
-  .logo {
+
+.logo{
     height: 50px;
     margin: 0.5rem;
     margin-bottom: 20px;
@@ -29,12 +31,12 @@ nav ul li {
 
   footer {
     border: 1px black solid;
-    background-color: #191516;
-    color: #92817a;
-    padding: 0;
-    font-size: 0.7em;
-    height: 10em;
-  }
+    background-color:#191516;
+    color:#92817a ;
+    padding: 0 ;
+    font-size: 2.5VW;
+    
+}
 
   .container {
     display: flex;
@@ -46,5 +48,50 @@ nav ul li {
 
   .between {
     justify-content: space-between;
-  }
+ }
 }
+@media screen and (min-width:1000px) {
+    footer p {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .logo{
+        height: 50px;
+        margin: 0.5rem ;
+        margin-bottom: 20px;
+    }
+}
+.logo{
+    height: 7vw;
+    margin: 0.5rem ;
+    margin-bottom: 1vh;
+}
+
+footer{     
+    border: 1px black solid;
+    background-color:#191516;
+    color:grey;
+    padding: 5px 10px ;
+    font-size: 2VW;
+    
+}
+
+.container{
+    display: flex;   
+}
+
+.evenly{
+    justify-content: space-evenly;
+        
+}
+
+.between{
+    justify-content: space-between;
+    
+ }
+ .center{
+     text-align: center;
+ }
+ .right{
+     text-align: end;
+ }
