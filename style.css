@@ -6,15 +6,45 @@
 nav {
   position: fixed;
   background-color: black;
-  padding: 1rem;
+  padding: 0.5vw;
   opacity: 0.6;
-  border-radius: 10%;
+  border-radius: 0 10% 10% 0;
 }
 
 nav ul li {
   display: block;
   color: yellow;
   padding: 0.5rem;
+  font-size: 2.3vw;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: yellow;
+}
+
+a:link:hover {
+  color: white;
+}
+@media screen and (min-width: 769px) {
+  nav {
+    position: static;
+    border-radius: 0%;
+    opacity: 1;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.7vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
