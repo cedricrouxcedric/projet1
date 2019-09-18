@@ -165,10 +165,12 @@ main {
   margin: 0rem 0rem 0rem 0rem;
   text-align: center;
   padding-bottom: 1rem;
+  padding: 2rem 0rem 2rem 0rem;
 }
 
 .introduction h1 {
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: 'Lobster Two', cursive;
 }
@@ -221,9 +223,6 @@ main {
 	margin: 3rem auto;
 } */
 
-.transition h1 {
-  font-size: 1.5rem;
-}
 
 .part {
   padding: 1rem;
@@ -237,14 +236,15 @@ main {
   /*background-color: #f6f740;*/
 }
 
-.picture {
+.picture_mobile {
   width: 40%;
 }
 .menu_main{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 100%
+  width: 100%;
+  padding-top: 2rem;
 }
 
 
@@ -257,6 +257,11 @@ main {
 
 .menu_card {
   width: 50%;
+  margin-top: 1rem;
+}
+
+.colored_font{
+  color: #daa520;
 }
 
 .shows {
@@ -272,14 +277,8 @@ main {
   justify-content: center;
 }
 
-.artist_card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.booking {
- /* background-color: #92817a;*/
+.groupe_picture{
+  margin: 1rem;
 }
 
 .booking_form {
@@ -335,14 +334,22 @@ button:hover{
   align-items: center;
 }
 
+label{
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 1000px) {
 
 .banner{
   height: 370px;
+  background-size: cover !important;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.main_title{
-margin-top: -12%;
+.banner h1{
+margin-top: -6%;
+font-size: 7rem;
 
 }
 
@@ -357,7 +364,7 @@ margin-top: -12%;
 }
 
 p{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .logo{
@@ -372,6 +379,7 @@ p{
 hr{
   margin-bottom: 1rem;
 }
+
 .menu{
   flex-direction: row;
   width: 80%;
@@ -381,26 +389,38 @@ hr{
   align-items: center;
   height: 375px;
   justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.menu_card{
+  padding: 2rem;
+  border: 2px solid #daa520;
+  border-radius: 33px;
+  box-shadow: 3px 1px 1px#daa520;
+  font-size: 2rem; 
+  margin: 2rem 1rem 0rem 1rem; 
 }
 
 .containt_artist{
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: none;
-  /* width: 80%; */
-}
-
-.artist_card{
-  width: 65%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
   align-items: center;
 }
 
-.picture{
-  width: 60%;
+.containt_artist p{
+  width: 30%;
 }
+
+.picture_desktop{
+  width: 60%;
+  border-radius: 20px;
+}
+
+.groupe_picture{
+  width: 30%;
+}
+
 .booking{
   display: flex;
   flex-direction: column;
@@ -428,6 +448,10 @@ input{
   border: 1px solid black;
 }
 
+label{
+  font-size: 1.3rem;
+}
+
 textarea{
   height:5rem;
   margin-bottom:1rem; 
@@ -439,4 +463,13 @@ button{
   width:8rem;
   padding: 1rem;
 }
+
+span{
+  font-size: 1.3rem;
+  }
+
+.titlebig{
+  font-size: 5rem;
+}
+
 }
