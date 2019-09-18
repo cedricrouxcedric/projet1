@@ -270,7 +270,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .artist_card {
@@ -315,12 +314,18 @@ a{
 }*/
 
 button{
-  width: 40%;
-  background-color: #f6f740;
+  width: 8rem;
+  background-color: #daa520;
   border-radius: 5px;
   border: none;
   padding: 3px;
   margin-top: 10px;
+  margin: 10px auto;
+}
+
+button:hover{
+  background-color: black;
+  color: #daa520
 }
 
 .contact form{
@@ -333,13 +338,105 @@ button{
 @media screen and (min-width: 1000px) {
 
 .banner{
-  padding-top: 30rem;
+  height: 370px;
+}
+
+.main_title{
+margin-top: -12%;
+
+}
+
+.part{
+  padding: 3rem 5rem 5rem 5rem;
+  /* width: 100%; */
+  margin: auto;
+}
+
+.introduction{
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+p{
+  font-size: 1rem;
 }
 
 .logo{
   width:250px;
-  margin-top: -8rem;
+  margin-top: -13rem;
 }
 
+.transition_title{
+  margin-top: 3rem;
+}
 
+hr{
+  margin-bottom: 1rem;
+}
+.menu{
+  flex-direction: row;
+  width: 80%;
+}
+
+.menu_main{
+  align-items: center;
+  height: 375px;
+  justify-content: space-around;
+}
+
+.containt_artist{
+  flex-direction: row;
+  justify-content: space-around;
+  border: none;
+  /* width: 80%; */
+}
+
+.artist_card{
+  width: 65%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picture{
+  width: 60%;
+}
+.booking{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  width: 60%;
+}
+
+.options_form{
+  margin: 1rem;
+}
+
+input{
+  height:2.5rem;
+  margin-bottom:1rem; 
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+
+textarea{
+  height:5rem;
+  margin-bottom:1rem; 
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+
+button{
+  width:8rem;
+  padding: 1rem;
+}
 }
