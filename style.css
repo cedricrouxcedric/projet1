@@ -3,13 +3,29 @@
   padding: 0;
 }
 
-nav {
-  position: fixed;
+.burgerMenu {
+  position: absolute;
+  margin: 1vw;
+}
+
+.burger {
+  height: 4vw;
+}
+
+#navMenu {
+  display: none;
   background-color: black;
   padding: 0.5vw;
   opacity: 0.6;
   border-radius: 0 10% 10% 0;
 }
+
+/*@media screen and (max-width: 768px) {
+  #navMenu: {
+    display: none;
+  }
+
+}*/
 
 nav ul li {
   display: block;
@@ -27,9 +43,19 @@ a:link {
 a:link:hover {
   color: white;
 }
+
 @media screen and (min-width: 769px) {
-  nav {
+  .burger {
+    display: none;
+  }
+  
+  .burgerMenu {
+    display: block;
     position: static;
+    margin: 0;
+  }
+  
+  #navMenu {
     border-radius: 0%;
     opacity: 1;
   }
