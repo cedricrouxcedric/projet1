@@ -119,7 +119,7 @@
 			<div>
 				<h1>Nous contacter</h1>
 			</div>
-			<img src="pictures/music.png" class="transitionpicture">
+			<img src="pictures/music.png" alt="notes de musique" class="transitionpicture">
 		</section>
 		<section class="contact part">
 			<p>Vous souhaitez vous produire dans notre établissement, rejoindre notre équipe ou simplement nous envoyer
@@ -154,17 +154,19 @@
 			<form>
 				<div class="form_items">
 					<label for="clientName"> Votre nom : <abbr title="required">*</abbr></label>
-					<input id="clientName" type="text" name="clientName">
+					<input id="client_Name" type="text" name="clientName">
 				</div>
 				<div class="form_items">
 					<label for="clientFirstname"> Votre prénom : <abbr title="required">*</abbr></label>
-					<input id="clientFirstname" type="text" name="clientFirstname">
+					<input id="client_First_name" type="text" name="clientFirstname">
 				</div>
 				<div class="form_items">
 					<label for="message"> Laissez ici votre message (nombre de personnes, d'enfants, si besoin de siège
 						bébé, ou autre...)<abbr title="required">*</abbr></label>
-					<textarea id="message" name="message"></textarea>
-				</div class="form_items">
+				</div>
+				<div class="form_items">
+					<textarea id="sendMessage" name="message"></textarea>
+				</div>
 				<button type="submit">Envoyer votre message</button>
 			</form>
 		</section>
