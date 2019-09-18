@@ -18,9 +18,6 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    min-width: 500px;
-  }
 
   .logos {
     height: 50px;
@@ -92,7 +89,7 @@ footer {
   text-align: end;
 }
 
-/* Css Marine */
+/* Css Body */
 
 body {
   background-color: white;
@@ -122,12 +119,12 @@ main {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   display: block;
   align-self: baseline;
   margin: 0rem auto;
   border-radius: 20%;
-  margin-top: -9rem;
+  margin-top: -6rem;
 }
 
 .introduction {
@@ -172,9 +169,13 @@ main {
 	background-attachment: fixed;*/
 }
 
+.transitionBackground{
+  background-color: black;
+  margin-bottom: 1rem;
+}
 .transitionpicture {
   width: 20%;
-  align-self: flex-start;
+  border: 2px solid black;
 }
 
 /*
@@ -187,7 +188,7 @@ main {
 } */
 
 .transition h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .part {
@@ -199,12 +200,19 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f6f740;
+  /*background-color: #f6f740;*/
 }
 
 .picture {
   width: 40%;
 }
+.menu_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%
+}
+
 
 .menu_container {
   display: flex;
@@ -220,7 +228,7 @@ main {
 .shows {
   display: flex;
   flex-direction: column;
-  background-color: #ab2346;
+ /* background-color: #ab2346;*/
 }
 
 .containt_artist {
@@ -238,7 +246,7 @@ main {
 }
 
 .booking {
-  background-color: #92817a;
+ /* background-color: #92817a;*/
 }
 
 .booking_form {
@@ -251,7 +259,7 @@ main {
 .form_items {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width:60%;
 }
 
 nav {
@@ -273,7 +281,12 @@ a{
 }*/
 
 button{
-  width: 20%;
+  width: 40%;
+  background-color: #f6f740;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin-top: 10px;
 }
 
 .contact form{
@@ -283,3 +296,16 @@ button{
   align-items: center;
 }
 
+@media screen and (min-width: 1000px) {
+
+.banner{
+  padding-top: 30rem;
+}
+
+.logo{
+  width:250px;
+  margin-top: -8rem;
+}
+
+
+}
