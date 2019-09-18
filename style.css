@@ -49,7 +49,6 @@ a:link:hover {
 
 @media screen and (max-width: 768px) {
   body {
-  
     width: 100%;
   }
 
@@ -123,7 +122,7 @@ footer {
   text-align: end;
 }
 
-/* Css Marine */
+/* Css Body */
 
 body {
   background-color: white;
@@ -142,6 +141,8 @@ main {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  padding-top: 14rem;
+  padding-bottom:7rem;
 }
 
 .banner h1 {
@@ -152,11 +153,12 @@ main {
 }
 
 .logo {
-  width: 20vw;
+  width: 150px;
   display: block;
   align-self: baseline;
   margin: 0rem auto;
   border-radius: 20%;
+  margin-top: -6rem;
 }
 
 .introduction {
@@ -201,9 +203,13 @@ main {
 	background-attachment: fixed;*/
 }
 
+.transitionBackground{
+  background-color: black;
+  margin-bottom: 1rem;
+}
 .transitionpicture {
   width: 20%;
-  align-self: flex-start;
+  border: 2px solid black;
 }
 
 /*
@@ -216,7 +222,7 @@ main {
 } */
 
 .transition h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .part {
@@ -228,12 +234,19 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f6f740;
+  /*background-color: #f6f740;*/
 }
 
 .picture {
   width: 40%;
 }
+.menu_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%
+}
+
 
 .menu_container {
   display: flex;
@@ -249,7 +262,7 @@ main {
 .shows {
   display: flex;
   flex-direction: column;
-  background-color: #ab2346;
+ /* background-color: #ab2346;*/
 }
 
 .containt_artist {
@@ -267,18 +280,20 @@ main {
 }
 
 .booking {
-  background-color: #92817a;
+ /* background-color: #92817a;*/
 }
 
 .booking_form {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .form_items {
   display: flex;
   flex-direction: column;
+  width:60%;
 }
 
 nav {
@@ -298,3 +313,33 @@ a{
 	border:1px solid black;
 	padding: 2rem;
 }*/
+
+button{
+  width: 40%;
+  background-color: #f6f740;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.contact form{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+
+.banner{
+  padding-top: 30rem;
+}
+
+.logo{
+  width:250px;
+  margin-top: -8rem;
+}
+
+
+}
