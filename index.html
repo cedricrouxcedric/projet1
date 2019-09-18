@@ -11,25 +11,29 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a name="Nos menus presque gastros" href="#Menus">La carte</a>
-				</li>
-				<li>
-					<a name="Nos prochains concerts" href="#Concerts">Concerts à venir</a>
-				</li>
-				<li>
-					<a name="Faire une réservation" href="#Reserve">Réserver une Table</a>
-				</li>
-				<li>
-					<a name="Formulaire de contact" href="#Contact">Contactez-nous</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+
+  <body>
+    <header>
+		<div class="burgerMenu">
+			<img class="burger" onclick="menuPop();" src="https://i.pinimg.com/originals/c4/70/7a/c4707a8305cf5dc79ce41458fa96854f.png">
+			<nav id="navMenu">
+				<ul id="myLinks">
+					<li>
+						<a title="Nos menus presque gastros" href="#Menus">La carte</a>
+					</li>
+					<li>
+						<a title="Nos prochains concerts" href="#Concerts">Concerts à venir</a>
+					</li>
+					<li>
+						<a title="Faire une réservation" href="#Reserve">Réserver une Table</a>
+					</li>
+					<li>
+						<a title="Formulaire de contact" href="#Contact">Contactez-nous</a>
+					</li>
+				</ul>
+			</nav>
+	</div>
+    </header>
 	<main>
 		<section class="banner">
 			<h1 class="main_title">
@@ -241,6 +245,7 @@
           <p class="right">05.56.17.69.64</p>
         </div>
       </div>
-    </footer>
+	</footer>
+	<script type="text/javascript" src="index.js"></script>
   </body>
 </html>
