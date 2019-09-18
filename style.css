@@ -20,13 +20,6 @@
   border-radius: 0 10% 10% 0;
 }
 
-/*@media screen and (max-width: 768px) {
-  #navMenu: {
-    display: none;
-  }
-
-}*/
-
 nav ul li {
   display: block;
   color: yellow;
@@ -56,6 +49,7 @@ a:link:hover {
   }
   
   #navMenu {
+    display: block;
     border-radius: 0%;
     opacity: 1;
   }
