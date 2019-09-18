@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Le caillou</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Gayathri&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a name="Nos menus presque gastros" href="#Menus">La carte</a>
-          </li>
-          <li>
-            <a name="Nos prochains concerts" href="#Concerts"
-              >Concerts à venir</a
-            >
-          </li>
-          <li>
-            <a name="Faire une réservation" href="#Reserve"
-              >Réserver une Table</a
-            >
-          </li>
-          <li>
-            <a name="Formulaire de contact" href="#Contact">Contactez-nous</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Le caillou</title>
+	<link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a name="Nos menus presque gastros" href="#Menus">La carte</a>
+				</li>
+				<li>
+					<a name="Nos prochains concerts" href="#Concerts">Concerts à venir</a>
+				</li>
+				<li>
+					<a name="Faire une réservation" href="#Reserve">Réserver une Table</a>
+				</li>
+				<li>
+					<a name="Formulaire de contact" href="#Contact">Contactez-nous</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 	<main>
 		<section class="banner">
 			<h1>
@@ -42,32 +37,28 @@
 				Restaurant<br>
 				Jazz<br>
 			</h1>
-			
+
 		</section>
-		<img src="pictures/logo_square.png" 
-			class="logo"
-			alt="logo saxophone sur assiette">
+		<img src="pictures/logo_square.png" class="logo" alt="logo saxophone sur assiette">
 		<section class="introduction">
 			<h1>Le Caillou du Jardin Botanique</h1>
-			<p>Situé dans le jardin Botanique de Bordeaux, notre établissement offre des services de bar-restauration et organise régulièrement des concerts de Jazz. </p>
+			<p>Situé dans le jardin Botanique de Bordeaux, notre établissement offre des services de bar-restauration et
+				organise régulièrement des concerts de Jazz. </p>
 			<p>Venez manger ou siroter un verre ....</p>
 		</section>
 		<section class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" class="transitionpicture"
-				alt="notes de musiques">
+				<img src="noteGold.png" class="transitionpicture" alt="notes de musiques">
 			</div>
 			<div>
 				<hr>
-				<h1>Menu</h1>
+				<h1 id="Menus">Menu</h1>
 
 			</div>
 			<!--<i class="fas fa-utensils"></i> -->
 		</section>
 		<section class="menu part">
-			<img src="pictures/restaurantPicture.jpg" 
-				class="picture"
-				alt="photo du restaurant">
+			<img src="pictures/restaurantPicture.jpg" class="picture" alt="photo du restaurant">
 			<div class="menu_main">
 				<h1>Notre carte</h1>
 				<div class="menu_container">
@@ -77,22 +68,20 @@
 						<p>Plats:</p>
 						<p>Dessert: </p>
 					</div>
-					<div class="menu_card"> 
+					<div class="menu_card">
 						<h2>Vegan</h2>
 						<p>Entrées:</p>
 						<p>Plats:</p>
 						<p>Dessert: </p>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<br>
 			<button type="submit">Réserver une table</button>
 		</section>
 		<section class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" 
-					class="transitionpicture"
-					alt="notes de musiques">
+				<img src="noteGold.png" class="transitionpicture" alt="notes de musiques">
 			</div>
 			<div>
 				<hr>
@@ -100,65 +89,62 @@
 			</div>
 		</section>
 		<section class="shows part">
-			<h1>Prochain évènement : </h1>
+			<h1 id="Concerts">Prochain évènement : </h1>
 			<div class="containt_artist">
 				<div class="artist_card">
 					<h2>Armstrong's daughters</h2>
-					<img src="pictures/bannerPicture.jpg" 
-						class="picture"
-						alt="groupe de jazz">
+					<img src="pictures/bannerPicture.jpg" class="picture" alt="groupe de jazz">
 				</div>
 				<p>Presentation de l'artiste</p>
 			</div>
 		</section>
 		<section class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" 
-					class="transitionpicture"
-					alt="notes de musique">
+				<img src="noteGold.png" class="transitionpicture" alt="notes de musique">
 			</div>
 			<div>
 				<hr>
-				<h1>Réservation</h1>
+				<h1 id="Reserve">Réservation</h1>
 			</div>
 			<!--<i class="fas fa-utensils"></i> -->
 		</section>
 		<section class="booking part">
 			<form class="booking_form">
 				<div class="form_items">
-					<label for="clientName"> Votre nom : <abbr title="required">*</abbr></label> 
+					<label for="clientName"> Votre nom : <abbr title="required">*</abbr></label>
 					<input id="clientName" type="text" name="clientName">
 				</div>
 				<div class="form_items">
-					<label for="clientFirstname" > Votre prénom : <abbr title="required">*</abbr></label>
+					<label for="clientFirstname"> Votre prénom : <abbr title="required">*</abbr></label>
 					<input id="clientFirstname" type="text" name="clientFirstname">
 				</div>
 				<div class="form_items">
-					<label for="date" > Date : <abbr title="required">*</abbr></label>
+					<label for="date"> Date : <abbr title="required">*</abbr></label>
 					<input id="date" type="date" name="date">
-				</div> 
+				</div>
 				<div class="form_items">
-					<label for="message"> Laissez ici votre message (nombre de personnes, d'enfants, si besoin de siège bébé, ou autre...)<abbr title="required">*</abbr></label>
+					<label for="message"> Laissez ici votre message (nombre de personnes, d'enfants, si besoin de siège
+						bébé, ou autre...)<abbr title="required">*</abbr></label>
 					<textarea id="message" name="message"></textarea>
 				</div>
 				<button type="submit">Envoyer une demande de réservation</button>
 				<br>
-				<span>Compte tenu des nombreuses demandes nous vous confirmerons votre réservation dans les meilleurs délais.</span>
+				<span>Compte tenu des nombreuses demandes nous vous confirmerons votre réservation dans les meilleurs
+					délais.</span>
 			</form>
 		</section>
 		<section class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" 
-					class="transitionpicture"
-					alt="notes de musique">
+				<img src="noteGold.png" class="transitionpicture" alt="notes de musique">
 			</div>
 			<div>
 				<hr>
-				<h1>Nous contacter</h1>
+				<h1 id="Contact">Nous contacter</h1>
 			</div>
 		</section>
 		<section class="contact part">
-			<p>Vous souhaitez vous produire dans notre établissement, rejoindre notre équipe ou simplement nous envoyer un message, contactez-nous via le formulaire ci-dessous en sélectionnant l'objet de votre message.</p>
+			<p>Vous souhaitez vous produire dans notre établissement, rejoindre notre équipe ou simplement nous envoyer
+				un message, contactez-nous via le formulaire ci-dessous en sélectionnant l'objet de votre message.</p>
 			<!--<form>
 				<h2>Objet du message:</h2>
 				<p>
@@ -174,85 +160,66 @@
 					<input type="checkbox" name="message" value="3">
 				</p>
 			</form> -->
-        <form>
-          <p>
-            <label for="object">
-              <span>Objet du message:</span>
-            </label>
-            <select id="object" name="messageobject">
-              <option value="artists"
-                >Se produire sur la scène du Caillou.</option
-              >
-              <option value="recrut">Rejoindre l'équipe.</option>
-              <option value="message">Envoyer un message.</option>
-            </select>
-          </p>
-        </form>
-        <form>
-          <div class="form_items">
-            <label for="clientName">
-              Votre nom : <abbr title="required">*</abbr></label
-            >
-            <input id="client_Name" type="text" name="clientName" />
-          </div>
-          <div class="form_items">
-            <label for="clientFirstname">
-              Votre prénom : <abbr title="required">*</abbr></label
-            >
-            <input id="client_First_name" type="text" name="clientFirstname" />
-          </div>
-          <div class="form_items">
-            <label for="message">
-              Laissez ici votre message (nombre de personnes, d'enfants, si
-              besoin de siège bébé, ou autre...)<abbr title="required"
-                >*</abbr
-              ></label
-            >
-          </div>
-          <div class="form_items">
-            <textarea id="sendMessage" name="message"></textarea>
-          </div>
-          <button type="submit">Envoyer votre message</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <div class="container evenly">
-        <img
-          class="logos snapchat"
-          alt="logo snapchat"
-          src="https://www.esiea.fr/wp-content/uploads/2019/06/snapchat.png"
-        />
-        <img
-          class="logos insta"
-          alt="logo insta"
-          src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png"
-        />
-        <img
-          class="logos facebook"
-          alt="logo facebook"
-          src="https://www.stickpng.com/assets/images/58e91965eb97430e819064f5.png"
-        />
-        <img
-          class="logos tweeter"
-          alt="logo tweeter"
-          src=" http://pngimg.com/uploads/twitter/twitter_PNG34.png"
-        />
-      </div>
-      <div class="container between">
-        <div>
-          <p>5-Esplanade Linnée</p>
-          <p>33000 BORDEAUX</p>
-        </div>
-        <div>
-          <p class="center">horaires</p>
-          <p>8h00 22h00 tous les jours</p>
-        </div>
-        <div>
-          <p>lecaillourestojazz@bonnesoiree.fr</p>
-          <p class="right">05.56.17.69.64</p>
-        </div>
-      </div>
-    </footer>
-  </body>
+			<form>
+				<p>
+					<label for="object">
+						<span>Objet du message:</span>
+					</label>
+					<select id="object" name="messageobject">
+						<option value="artists">Se produire sur la scène du Caillou.</option>
+						<option value="recrut">Rejoindre l'équipe.</option>
+						<option value="message">Envoyer un message.</option>
+					</select>
+				</p>
+			</form>
+			<form>
+				<div class="form_items">
+					<label for="clientName">
+						Votre nom : <abbr title="required">*</abbr></label>
+					<input id="client_Name" type="text" name="clientName" />
+				</div>
+				<div class="form_items">
+					<label for="clientFirstname">
+						Votre prénom : <abbr title="required">*</abbr></label>
+					<input id="client_First_name" type="text" name="clientFirstname" />
+				</div>
+				<div class="form_items">
+					<label for="message">
+						Laissez ici votre message (nombre de personnes, d'enfants, si
+						besoin de siège bébé, ou autre...)<abbr title="required">*</abbr></label>
+				</div>
+				<div class="form_items">
+					<textarea id="sendMessage" name="message"></textarea>
+				</div>
+				<button type="submit">Envoyer votre message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="container evenly">
+			<img class="logos snapchat" alt="logo snapchat"
+				src="https://www.esiea.fr/wp-content/uploads/2019/06/snapchat.png" />
+			<img class="logos insta" alt="logo insta"
+				src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png" />
+			<img class="logos facebook" alt="logo facebook"
+				src="https://www.stickpng.com/assets/images/58e91965eb97430e819064f5.png" />
+			<img class="logos tweeter" alt="logo tweeter" src=" http://pngimg.com/uploads/twitter/twitter_PNG34.png" />
+		</div>
+		<div class="container between">
+			<div>
+				<p>5-Esplanade Linnée</p>
+				<p>33000 BORDEAUX</p>
+			</div>
+			<div>
+				<p class="center">horaires</p>
+				<p>8h00 22h00 tous les jours</p>
+			</div>
+			<div>
+				<p>lecaillourestojazz@bonnesoiree.fr</p>
+				<p class="right">05.56.17.69.64</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
 </html>
