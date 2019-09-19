@@ -335,6 +335,7 @@ a{
 button{
   width: 8rem;
   background-color: #daa520;
+  color: black;
   border-radius: 5px;
   border: none;
   padding: 3px;
@@ -356,6 +357,10 @@ button:hover{
 
 label{
   margin-top: 1rem;
+}
+
+span{
+  text-align: center;
 }
 
 @media screen and (min-width: 1000px) {
