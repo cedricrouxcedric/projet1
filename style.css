@@ -10,6 +10,7 @@
 
 .burger {
   height: 4vw;
+  min-height: 2.5rem;
 }
 
 #navMenu {
@@ -24,7 +25,7 @@ nav ul li {
   display: block;
   color: yellow;
   padding: 0.5rem;
-  font-size: 2.3vw;
+  font-size: 1.2rem;
 }
 
 a {
