@@ -11,11 +11,11 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 
-
-  <body>
-    <header>
+<body>
+	<header>
 		<div class="burgerMenu">
-			<img class="burger" onclick="menuPop();" src="https://i.pinimg.com/originals/c4/70/7a/c4707a8305cf5dc79ce41458fa96854f.png">
+			<img class="burger" alt="logo burger" onclick="menuPop();"
+				src="https://i.pinimg.com/originals/c4/70/7a/c4707a8305cf5dc79ce41458fa96854f.png">
 			<nav id="navMenu">
 				<ul id="myLinks">
 					<li>
@@ -32,8 +32,8 @@
 					</li>
 				</ul>
 			</nav>
-	</div>
-    </header>
+		</div>
+	</header>
 	<main>
 		<section class="banner">
 			<h1>
@@ -42,7 +42,6 @@
 				Concerts <br>
 				Jazz<br>
 			</h1>
-
 		</section>
 		<img src="pictures/logo_square.png" class="logo" alt="logo saxophone sur assiette">
 		<section class="introduction">
@@ -51,16 +50,14 @@
 				organise régulièrement des concerts de Jazz. </p>
 			<p>Venez manger ou siroter un verre ....</p>
 		</section>
-		<section class="transition">
+		<section id="Menus" class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" class="transitionpicture" alt="notes de musiques">
+				<img src="pictures/noteGold.png" class="transitionpicture" alt="notes de musiques">
 			</div>
 			<div class="transition_title">
 				<hr>
-				<h1 id="Menus" class="titlebig">Nos Menus</h1>
-
+				<h1 class="titlebig">Menu</h1>
 			</div>
-			<!--<i class="fas fa-utensils"></i> -->
 		</section>
 		<section class="menu part">
 			<img src="pictures/restaurantPicture.jpg" class="picture_mobile picture_desktop" alt="photo du restaurant">
@@ -80,7 +77,7 @@
 						<h2 class="colored_font">Vegan</h2>
 						<p>12€</p>
 						<br>
-						<p class="colored_font">Plats:</p> 
+						<p class="colored_font">Plats:</p>
 						<p>Wok Végan Nouilles sautées</p>
 						<br>
 						<p class="colored_font">Dessert:</p>
@@ -92,8 +89,8 @@
 			</div>	
 		</section>
 		<section class="transition">
-			<div class="transitionBackground">
-				<img src="noteGold.png" class="transitionpicture" alt="notes de musiques">
+			<div id="Concerts" class="transitionBackground">
+				<img src="pictures/noteGold.png" class="transitionpicture" alt="notes de musiques">
 			</div>
 			<div class="transition_title">
 				<hr>
@@ -101,7 +98,7 @@
 			</div>
 		</section>
 		<section class="shows part">
-			<h1 id="Concerts">Prochain évènement : </h1>
+			<h1>Prochain évènement : </h1>
 			<br>
 			<br>
 			<div class="containt_artist">
@@ -110,15 +107,14 @@
 				<p>Nous avons le plaisir de recevoir ce groupe composé de 8 nonnes passionnées de Jazz. Elles ont créé leur groupe il y a déjà 6 ans et repasse pour la deuxième fois sur notre scène.</p>
 			</div>
 		</section>
-		<section class="transition">
+		<section id="Reserve" class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" class="transitionpicture" alt="notes de musique">
+				<img src="pictures/noteGold.png" class="transitionpicture" alt="notes de musique">
 			</div>
 			<div class="transition_title">
 				<hr>
-				<h1 id="Reserve" class="titlebig">Réservation</h1>
+				<h1 class="titlebig">Réservation</h1>
 			</div>
-			<!--<i class="fas fa-utensils"></i> -->
 		</section>
 		<section class="booking part">
 			<form class="booking_form">
@@ -145,27 +141,28 @@
 					délais.</span>
 			</form>
 		</section>
-		<section class="transition">
+		<section id="Contact" class="transition">
 			<div class="transitionBackground">
-				<img src="noteGold.png" class="transitionpicture" alt="notes de musique">
+				<img src="pictures/noteGold.png" class="transitionpicture" alt="notes de musique">
 			</div>
 			<div class="transition_title">
 				<hr>
-				<h1 id="Contact" class="titlebig">Nous contacter</h1>
+				<h1 class="titlebig">Nous contacter</h1>
 			</div>
 		</section>
 		<section class="contact part">
 			<p>Vous souhaitez vous produire dans notre établissement, rejoindre notre équipe ou simplement nous envoyer
 				un message, contactez-nous via le formulaire ci-dessous en sélectionnant l'objet de votre message.</p>
-			<!--<form>
-				<h2>Objet du message:</h2>
+			<form class="options_form">
 				<p>
-					<label for="artists">Se produire sur la scène du caillou</label>
-					<input type="checkbox" name="artists" value="1">
-				</p>
-				<p>
-					<label for="recrut">Rejoindre l'équipe</label>
-					<input type="checkbox" name="recrut" value="2">
+					<label for="object">
+						<span>Objet du message:</span>
+					</label>
+					<select id="object" name="messageobject">
+						<option value="artists">Se produire sur la scène du Caillou.</option>
+						<option value="recrut">Rejoindre l'équipe.</option>
+						<option value="message">Envoyer un message.</option>
+					</select>
 				</p>
 				<p>
 					<label for="message">Envoyer un message</label>
@@ -178,9 +175,7 @@
               <span>Objet du message:</span>
             </label>
             <select id="object" name="messageobject">
-              <option value="artists"
-                >Se produire sur la scène du Caillou.</option
-              >
+              <option value="artists">Se produire sur la scène du Caillou.</option>
               <option value="recrut">Rejoindre l'équipe.</option>
               <option value="message">Envoyer un message.</option>
             </select>
@@ -189,23 +184,18 @@
         <form>
           <div class="form_items">
             <label for="clientName">
-              Votre nom : <abbr title="required">*</abbr></label
-            >
+              Votre nom : <abbr title="required">*</abbr></label>
             <input id="client_Name" type="text" name="clientName" />
           </div>
           <div class="form_items">
             <label for="clientFirstname">
-              Votre prénom : <abbr title="required">*</abbr></label
-            >
+              Votre prénom : <abbr title="required">*</abbr></label>
             <input id="client_First_name" type="text" name="clientFirstname" />
           </div>
           <div class="form_items">
             <label for="message">
               Laissez ici votre message (nombre de personnes, d'enfants, si
-              besoin de siège bébé, ou autre...)<abbr title="required"
-                >*</abbr
-              ></label
-            >
+              besoin de siège bébé, ou autre...)<abbr title="required">*</abbr></label>
           </div>
           <div class="form_items">
             <textarea id="sendMessage" name="message"></textarea>
@@ -219,23 +209,19 @@
         <img
           class="logos snapchat"
           alt="logo snapchat"
-          src="https://www.esiea.fr/wp-content/uploads/2019/06/snapchat.png"
-        />
+          src="https://www.esiea.fr/wp-content/uploads/2019/06/snapchat.png"/>
         <img
           class="logos insta"
           alt="logo insta"
-          src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png"
-        />
+          src="https://i.pinimg.com/originals/a7/2b/b5/a72bb5bf31303bd5f2fcf20c95603150.png"/>
         <img
           class="logos facebook"
           alt="logo facebook"
-          src="https://www.stickpng.com/assets/images/58e91965eb97430e819064f5.png"
-        />
+          src="https://www.stickpng.com/assets/images/58e91965eb97430e819064f5.png"/>
         <img
           class="logos tweeter"
           alt="logo tweeter"
-          src=" http://pngimg.com/uploads/twitter/twitter_PNG34.png"
-        />
+          src=" http://pngimg.com/uploads/twitter/twitter_PNG34.png"/>
       </div>
       <div class="container between">
         <div>
@@ -253,5 +239,6 @@
       </div>
 	</footer>
 	<script type="text/javascript" src="index.js"></script>
-  </body>
+</body>
+
 </html>
