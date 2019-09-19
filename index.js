@@ -6,3 +6,7 @@ function menuPop() {
       x.style.display = "block";
     }
   }
+
+  function Message_send() {
+    alert('Message envoyé');
+  }
