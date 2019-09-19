@@ -437,6 +437,10 @@ hr{
   width: 30%;
 }
 
+.fontSize{
+ font-size: 4em;
+}
+
 .picture_desktop{
   width: 60%;
   border-radius: 20px;
