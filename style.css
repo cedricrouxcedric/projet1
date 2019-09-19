@@ -4,20 +4,20 @@
 }
 
 .burgerMenu {
-  position: absolute;
+  position: fixed;
   margin: 1vw;
 }
 
 .burger {
-  height: 4vw;
-  min-height: 2.5rem;
+  height: 7vw;
+  min-height: 4rem;
 }
 
 #navMenu {
   display: none;
-  background-color: black;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Miles_Davis-140916-0016-103WP.jpg/220px-Miles_Davis-140916-0016-103WP.jpg');
   padding: 0.5vw;
-  opacity: 0.6;
+  opacity: 0.7;
   border-radius: 0 10% 10% 0;
 }
 
@@ -50,6 +50,7 @@ a:hover {
   }
   
   #navMenu {
+    background-image: url('https://www.ombres-blanches.fr/uploads/tx_tableslibraires/jazz.jpg');
     display: block;
     border-radius: 0%;
     opacity: 1;
