@@ -113,7 +113,7 @@ a:hover {
 }
 
 .logos {
-  height: 7vw;
+  height: 4vw;
   margin: 0.5rem;
   margin-bottom: 1vh;
 }
@@ -196,24 +196,7 @@ main {
   text-align: center;
   font-family: 'Lobster Two', cursive;
 }
-/*
-.transition{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-} */
-/*
 
-.transition {
-	background-color: white;
-	padding: 2rem;
-	text-align: center;
-	color: white;
-	font-size: 5rem;
-	width: 100%;
-	height: 3rem;
-	display: flex;
-} */
 .transition {
   display: flex;
   flex-direction: column;
@@ -221,10 +204,7 @@ main {
   justify-content: center;
   font-family: 'Lobster Two', cursive;
   text-align: center;
-  /*background-image: url("pictures/banner_picture_big.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;*/
+
 }
 
 .transitionBackground{
@@ -236,14 +216,7 @@ main {
   border: 2px solid black;
 }
 
-/*
-.transition div{
-	background-color: #ab2346;
-	width: 80%;
-	height: 6rem;
-	text-align: center;
-	margin: 3rem auto;
-} */
+
 
 
 .part {
@@ -255,7 +228,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: #f6f740;*/
+
 }
 
 .picture_mobile {
@@ -289,7 +262,7 @@ main {
 .shows {
   display: flex;
   flex-direction: column;
- /* background-color: #ab2346;*/
+
 }
 
 .containt_artist {
@@ -322,17 +295,7 @@ nav {
   justify-content: center;
   background-color: black;
 }
-/*
-a{
-	display: block;
-	background-color: #ab2346;
-	width: 25%;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	border:1px solid black;
-	padding: 2rem;
-}*/
+
 
 button{
   width: 8rem;
